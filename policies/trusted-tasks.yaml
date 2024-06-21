@@ -1,0 +1,8 @@
+---
+trusted_tasks:
+  ? git+https://github.com/RedHatInsights/konflux-consoledot-frontend-build.git//tasks/create-frontend-dockerfile/create-frontend-dockerfile.yaml
+  : - effective_on: "2024-05-07T00:00:00Z"
+      ref: 6ca6bf7cbbe1dd25a5b8e50ebb832041533bf4b3
+  ? git+https://github.com/RedHatInsights/konflux-consoledot-frontend-build.git//tasks/parse-build-deploy-script/parse-build-deploy-script.yaml
+  : - effective_on: "2024-05-07T00:00:00Z"
+      ref: 6ca6bf7cbbe1dd25a5b8e50ebb832041533bf4b3
